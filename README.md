@@ -1,9 +1,7 @@
 # snakemake-sopa
 
-Sopa comes with an existing [Snakemake](https://snakemake.readthedocs.io/en/stable/) workflow to get started quickly.
-
 > [!WARNING]
-> The snakemake version of sopa has been archived. You can still use it with `sopa<2.3`, but we recommend using [nf-core/sopa](https://nf-co.re/sopa/) instead.
+> The snakemake version of sopa has been archived in this repository, we recommend using [nf-core/sopa](https://nf-co.re/sopa/) instead. You can still use this snakemake workflow, but it is no longer maintained (it was tested until `sopa==2.2.12`).
 
 ## Setup
 
