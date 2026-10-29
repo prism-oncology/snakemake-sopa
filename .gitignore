@@ -1,0 +1,108 @@
+# Misc
+workflow/.snakemake
+workflow/logs/*
+!workflow/logs/.gitkeep
+archive/
+explore
+sandbox
+*.html
+.env
+*.h5ad
+!tests/toy_tangram_ref.h5ad
+*.zarr
+*.explorer
+*.tif
+data
+
+# Data
+Xenium_*
+
+# OS related
+.DS_Store
+
+# Documentation
+site
+
+# Code Ocean
+code
+results
+
+# Logs
+outputs
+multirun
+lightning_logs
+checkpoints
+run.log
+
+# Jupyter Notebook
+.ipynb_checkpoints
+exploration/*
+*.ipynb
+!docs/tutorials/**/**.ipynb
+!notebooks/*.ipynb
+
+# pyenv
+.python-version
+
+# VisualStudioCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+*.code-workspace
+**/.vscode
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+!cli/src/lib
+lib64/
+parts/
+sdist/
+var/
+wheels/
+pip-wheel-metadata/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+#  Usually these files are written by a python script from a template
+#  before PyInstaller builds the exe, so as to inject date/other infos into it.
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
